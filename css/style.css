@@ -452,7 +452,7 @@ td.r {
   display: grid;
   grid-template-columns: 1fr; /* Membuatnya menjadi 1 baris penuh */
   gap: 12px;
-  width: 10%; /* Memaksa grid mengisi penuh ruang dari kiri ke kanan */
+  width: 100%; /* Memaksa grid mengisi penuh ruang dari kiri ke kanan */
 }
 
 .dk-card {
