@@ -58,56 +58,355 @@
           style="
             font-size: 12px;
             color: var(--muted);
-            margin-bottom: 14px;
+            margin-bottom: 20px;
             padding-left: 2px;
           "
         >
           TikTok + Instagram · Video & Foto per bulan · Sudah termasuk manajemen
           akun
         </div>
-        <div class="card">
-          <table class="bundle-table">
-            <thead>
-              <tr>
-                <th>Paket</th>
-                <th>Video/Bulan</th>
-                <th>Foto/Bulan</th>
-                <th class="r">Normal</th>
-                <th class="r">Ads Include</th>
-                <th class="r">Promo 🔥</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><span class="pkg-name">Startup</span></td>
-                <td style="color: var(--muted)">12 video</td>
-                <td><span class="chip">9 foto</span></td>
-                <td class="r"><span class="p-orig">Rp 4. 000.000</span></td>
-                <td style="color: var(--muted)" class="r">Rp 1.000.000</td>
-                <td class="r"><span class="p-main">Rp 3.500.000</span></td>
-              </tr>
-              <tr>
-                <td><span class="pkg-name">Growth</span></td>
-                <td style="color: var(--muted)">20 video</td>
-                <td><span class="chip">15 foto</span></td>
-                <td class="r"><span class="p-orig">Rp 6. 000.000</span></td>
-                <td style="color: var(--muted)" class="r">Rp 1.500.000</td>
-                <td class="r"><span class="p-main">Rp 5.000.000</span></td>
-              </tr>
-              <tr>
-                <td><span class="pkg-name">Scale</span></td>
-                <td style="color: var(--muted)">40 video</td>
-                <td><span class="chip">25 foto</span></td>
-                <td class="r"><span class="p-orig">Rp 10.000.000</span></td>
-                <td style="color: var(--muted)" class="r">Rp 2.500.000</td>
-                <td class="r"><span class="p-main">Rp 8.500.000</span></td>
-              </tr>
-            </tbody>
-          </table>
+
+        <div
+          class="pkg-vertical-stack"
+          style="
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 24px;
+          "
+        >
+          <div
+            class="ac-card"
+            style="display: flex; flex-direction: column; padding: 24px"
+          >
+            <div style="margin-bottom: 14px">
+              <div
+                class="ac-lbl"
+                style="
+                  font-size: 24px;
+                  color: var(--white);
+                  font-weight: 700;
+                  margin-bottom: 6px;
+                  text-transform: none;
+                  letter-spacing: -0.02em;
+                "
+              >
+                Startup
+              </div>
+              <div
+                class="ac-price"
+                style="
+                  font-size: 18px;
+                  color: var(--blue-bright);
+                  font-weight: 600;
+                "
+              >
+                Rp3.500.000
+                <span
+                  class="ac-unit"
+                  style="font-size: 13px; font-weight: 400; color: var(--muted)"
+                  >/ bulan</span
+                >
+              </div>
+              <div
+                class="ac-desc"
+                style="margin-top: 12px; font-size: 13px; line-height: 1.5"
+              >
+                Paket ini cocok untuk bisnis yang ingin mulai membangun
+                kehadiran digital secara rapi dan konsisten. Fokusnya adalah
+                membuat akun terlihat aktif dan profesional.
+              </div>
+            </div>
+            <div style="border-top: 1px solid var(--border); padding-top: 14px">
+              <table
+                style="width: 100%; font-size: 13px; border-collapse: collapse"
+              >
+                <tr>
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Video konten
+                  </td>
+                  <td class="r" style="color: var(--white)">12 video/bulan</td>
+                </tr>
+                <tr>
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Foto/desain
+                  </td>
+                  <td class="r" style="color: var(--white)">9 foto/bulan</td>
+                </tr>
+
+                <tr class="desktop-hide">
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Strategi konten
+                  </td>
+                  <td class="r" style="color: var(--white)">
+                    Content plan bulanan
+                  </td>
+                </tr>
+                <tr class="desktop-hide">
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Copywriting
+                  </td>
+                  <td class="r" style="color: var(--white)">Caption dan CTA</td>
+                </tr>
+                <tr class="desktop-hide">
+                  <td style="padding: 5px 0; color: var(--muted)">Posting</td>
+                  <td class="r" style="color: var(--white)">
+                    Upload sesuai jadwal
+                  </td>
+                </tr>
+                <tr class="desktop-hide">
+                  <td style="padding: 5px 0; color: var(--muted)">Revisi</td>
+                  <td class="r" style="color: var(--white)">Maksimal 2x</td>
+                </tr>
+
+                <tr>
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Ads budget
+                  </td>
+                  <td
+                    class="r"
+                    style="color: var(--blue-bright); font-weight: 600"
+                  >
+                    Rp700.000
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 5px 0; color: var(--muted)">Reporting</td>
+                  <td class="r" style="color: var(--white)">Laporan bulanan</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div
+            class="ac-card"
+            style="display: flex; flex-direction: column; padding: 24px"
+          >
+            <div style="margin-bottom: 14px">
+              <div
+                class="ac-lbl"
+                style="
+                  font-size: 24px;
+                  color: var(--white);
+                  font-weight: 700;
+                  margin-bottom: 6px;
+                  text-transform: none;
+                  letter-spacing: -0.02em;
+                "
+              >
+                Growth
+              </div>
+              <div
+                class="ac-price"
+                style="
+                  font-size: 18px;
+                  color: var(--blue-bright);
+                  font-weight: 600;
+                "
+              >
+                Rp5.000.000
+                <span
+                  class="ac-unit"
+                  style="font-size: 13px; font-weight: 400; color: var(--muted)"
+                  >/ bulan</span
+                >
+              </div>
+              <div
+                class="ac-desc"
+                style="margin-top: 12px; font-size: 13px; line-height: 1.5"
+              >
+                Cocok untuk brand yang ingin bertumbuh lebih cepat dengan konten
+                yang lebih aktif dan terarah. Fokus pada awareness dan
+                engagement.
+              </div>
+            </div>
+            <div style="border-top: 1px solid var(--border); padding-top: 14px">
+              <table
+                style="width: 100%; font-size: 13px; border-collapse: collapse"
+              >
+                <tr>
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Video konten
+                  </td>
+                  <td class="r" style="color: var(--white)">20 video/bulan</td>
+                </tr>
+                <tr>
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Foto/desain
+                  </td>
+                  <td class="r" style="color: var(--white)">15 foto/bulan</td>
+                </tr>
+                <tr class="desktop-hide">
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Strategi konten
+                  </td>
+                  <td class="r" style="color: var(--white)">
+                    Content plan bulanan + pilar konten
+                  </td>
+                </tr>
+                <tr class="desktop-hide">
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Copywriting
+                  </td>
+                  <td class="r" style="color: var(--white)">
+                    Caption, CTA, dan angle promosi
+                  </td>
+                </tr>
+                <tr class="desktop-hide">
+                  <td style="padding: 5px 0; color: var(--muted)">Posting</td>
+                  <td class="r" style="color: var(--white)">
+                    Upload sesuai jadwal
+                  </td>
+                </tr>
+                <tr class="desktop-hide">
+                  <td style="padding: 5px 0; color: var(--muted)">Revisi</td>
+                  <td class="r" style="color: var(--white)">
+                    Maksimal 2x revisi per konten
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Ads budget
+                  </td>
+                  <td
+                    class="r"
+                    style="color: var(--blue-bright); font-weight: 600"
+                  >
+                    Rp1.000.000
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 5px 0; color: var(--muted)">Reporting</td>
+                  <td class="r" style="color: var(--white)">
+                    Laporan performa bulanan + evaluasi
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div
+            class="ac-card"
+            style="display: flex; flex-direction: column; padding: 24px"
+          >
+            <div style="margin-bottom: 14px">
+              <div
+                class="ac-lbl"
+                style="
+                  font-size: 24px;
+                  color: var(--white);
+                  font-weight: 700;
+                  margin-bottom: 6px;
+                  text-transform: none;
+                  letter-spacing: -0.02em;
+                "
+              >
+                Scale
+              </div>
+              <div
+                class="ac-price"
+                style="
+                  font-size: 18px;
+                  color: var(--blue-bright);
+                  font-weight: 600;
+                "
+              >
+                Rp8.500.000
+                <span
+                  class="ac-unit"
+                  style="font-size: 13px; font-weight: 400; color: var(--muted)"
+                  >/ bulan</span
+                >
+              </div>
+              <div
+                class="ac-desc"
+                style="margin-top: 12px; font-size: 13px; line-height: 1.5"
+              >
+                Cocok untuk brand yang ingin scale up dengan volume konten lebih
+                besar dan eksekusi intensif. Mendukung campaign yang lebih
+                agresif.
+              </div>
+            </div>
+            <div style="border-top: 1px solid var(--border); padding-top: 14px">
+              <table
+                style="width: 100%; font-size: 13px; border-collapse: collapse"
+              >
+                <tr>
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Video konten
+                  </td>
+                  <td class="r" style="color: var(--white)">40 video/bulan</td>
+                </tr>
+                <tr>
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Foto/desain
+                  </td>
+                  <td class="r" style="color: var(--white)">25 foto/bulan</td>
+                </tr>
+                <tr class="desktop-hide">
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Strategi konten
+                  </td>
+                  <td class="r" style="color: var(--white)">
+                    Content strategy bulanan + campaign planning
+                  </td>
+                </tr>
+                <tr class="desktop-hide">
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Copywriting
+                  </td>
+                  <td class="r" style="color: var(--white)">
+                    Caption, CTA, dan selling angle
+                  </td>
+                </tr>
+                <tr class="desktop-hide">
+                  <td style="padding: 5px 0; color: var(--muted)">Posting</td>
+                  <td class="r" style="color: var(--white)">
+                    Upload sesuai jadwal
+                  </td>
+                </tr>
+                <tr class="desktop-hide">
+                  <td style="padding: 5px 0; color: var(--muted)">Revisi</td>
+                  <td class="r" style="color: var(--white)">
+                    Maksimal 3x revisi per konten
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 5px 0; color: var(--muted)">
+                    Ads budget
+                  </td>
+                  <td
+                    class="r"
+                    style="color: var(--blue-bright); font-weight: 600"
+                  >
+                    Rp1.700.000
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 5px 0; color: var(--muted)">Reporting</td>
+                  <td class="r" style="color: var(--white)">
+                    Laporan performa bulanan detail + insight rekomendasi
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
         </div>
+
         <p class="foot-note">
           * Kelebihan konten di luar paket → foto Rp 20.000/foto · video Rp
           100.000/video
+        </p>
+        <p class="foot-note">
+          * Semua paket sudah termasuk budget iklan sebesar 20% dari nilai
+          paket.
+        </p>
+        <p class="foot-note">
+          * Harga sudah mencakup content planning, produksi konten, editing,
+          caption, posting, dan reporting sesuai scope masing-masing paket.
+        </p>
+        <p class="foot-note">
+          * Tambahan konten di luar paket dapat dikenakan biaya terpisah.
         </p>
       </div>
 
@@ -157,7 +456,6 @@
                   <span>Customized Photo</span>
                   <span style="color: var(--muted)">Sesuai Paket</span>
                 </li>
-                <li style="margin-bottom: 4px">Revisi Maks. 2x</li>
                 <li
                   style="
                     display: flex;
@@ -228,17 +526,6 @@
                   line-height: 2;
                 "
               >
-                <li
-                  style="
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    margin-bottom: 4px;
-                  "
-                >
-                  Include IG Reels & TikTok
-                  <span class="free-badge">FREE</span>
-                </li>
                 <li
                   style="
                     display: flex;

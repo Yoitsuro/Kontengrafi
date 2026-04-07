@@ -316,6 +316,18 @@ td.r {
   text-align: right;
 }
 
+/* Secara default (di PC/Layar Lebar), sembunyikan baris tersebut */
+.desktop-hide {
+  display: none;
+}
+
+/* Di layar HP (maksimal lebar 640px), tampilkan kembali barisnya */
+@media (max-width: 640px) {
+  .desktop-hide {
+    display: table-row; /* Tampilkan kembali sebagai baris tabel */
+  }
+}
+
 .pkg-name {
   font-weight: 700;
   font-size: 14px;
